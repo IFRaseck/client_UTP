@@ -40,7 +40,7 @@
     },
     methods: {
       onSubmit() {
-        this.axios.get('/usuarios') 
+        this.axios.get('/api/usuarios') 
         .then(res => {
           this.usuarios = res.data;
           this.usuarios.forEach((value) => {
