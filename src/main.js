@@ -26,7 +26,7 @@ Vue.use(BootstrapVueIcons)
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter)
 
-axios.defaults.baseURL = 'https://servidor-grupo1.herokuapp.com/';
+axios.defaults.baseURL = 'https://servidor-utp.herokuapp.com/';
 
 Vue.config.productionTip = false
 
